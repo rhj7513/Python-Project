@@ -29,7 +29,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": null,
+      "execution_count": 1,
       "metadata": {
         "id": "1ERDWcaJ0ujh"
       },
@@ -112,7 +112,7 @@
       "metadata": {
         "id": "LylS19vz00Ox"
       },
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": []
     },
     {
@@ -147,7 +147,7 @@
       "metadata": {
         "id": "61cpaQhz025a"
       },
-      "execution_count": null,
+      "execution_count": 3,
       "outputs": []
     },
     {
@@ -163,10 +163,36 @@
         "        break"
       ],
       "metadata": {
-        "id": "RkL2FU8l05QU"
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RkL2FU8l05QU",
+        "outputId": "76a6715e-0d95-4f44-de38-2f56b5721865"
       },
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 6,
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "1. 전체 출력 2. 사용자 검색 3.멈춰1\n",
+            "----------1등-----------\n",
+            "19 4 16 41 38 35 \n",
+            "----------2등-----------\n",
+            "8 4 16 41 38 35 19 8 16 41 38 35 19 4 8 41 38 35 19 4 16 8 38 35 19 4 16 41 8 35 19 4 16 41 38 8 \n",
+            "----------3등-----------\n",
+            "X 4 16 41 38 35 19 X 16 41 38 35 19 4 X 41 38 35 19 4 16 X 38 35 19 4 16 41 X 35 19 4 16 41 38 X \n",
+            "----------4등-----------\n",
+            "X X 16 41 38 35 X 4 X 41 38 35 X 4 16 X 38 35 X 4 16 41 X 35 X 4 16 41 38 X X 4 16 41 38 35 X 4 16 41 38 35 19 X X 41 38 35 19 X 16 X 38 35 19 X 16 41 X 35 19 X 16 41 38 X 19 X 16 41 38 35 19 X 16 41 38 35 19 4 X X 38 35 19 4 X 41 X 35 19 4 X 41 38 X 19 4 X 41 38 35 19 4 X 41 38 35 19 4 16 X X 35 19 4 16 X 38 X 19 4 16 X 38 35 19 4 16 X 38 35 19 4 16 41 X X 19 4 16 41 X 35 19 4 16 41 X 35 19 4 16 41 38 X 19 4 16 41 38 X \n",
+            "----------5등-----------\n",
+            "X X X 41 38 35 X X 16 X 38 35 X X 16 41 X 35 X X 16 41 38 X X 4 X X 38 35 X 4 X 41 X 35 X 4 X 41 38 X X 4 16 X X 35 X 4 16 X 38 X X 4 16 41 X X 19 X X X 38 35 19 X X 41 X 35 19 X X 41 38 X 19 X 16 X X 35 19 X 16 X 38 X 19 X 16 41 X X 19 4 X X X 35 19 4 X X 38 X 19 4 X 41 X X 19 4 16 X X X \n",
+            "1. 전체 출력 2. 사용자 검색 3.멈춰2\n",
+            "6개의 숫자 입력해주세요: 19 4 16 4 3 3\n",
+            "4등입니다!\n",
+            "1. 전체 출력 2. 사용자 검색 3.멈춰3\n"
+          ]
+        }
+      ]
     }
   ]
 }
